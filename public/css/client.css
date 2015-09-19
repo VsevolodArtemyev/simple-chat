@@ -1,0 +1,59 @@
+.alias {
+  font-style: oblique;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.alias-in-list {
+  padding-left: 10px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16,
+.col-sm-17, .col-sm-18, .col-sm-19, .col-sm-20, .col-sm-21, .col-sm-22, .col-sm-23, .col-sm-24 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.greeting {
+  font-family: cursive;
+  font-size: medium;
+  padding-bottom: 5px;
+}
+
+.output-fields {
+  height: 400px;
+  border: 1px solid #CECDCB;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.msg {
+  float: left;
+  font-family: cursive;
+  padding-right: 5px;
+  display: flex;
+  word-break: break-all;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.msg .text {
+  margin-left: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.service-msg {
+  color: gray;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+#fChat { display: none; }
+#output { overflow-y: scroll; }
+#clientsList { overflow-y: scroll; }
